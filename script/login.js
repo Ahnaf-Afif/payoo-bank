@@ -1,5 +1,3 @@
-console.log("something is cooking");
-
 document.getElementById("login-btn").addEventListener("click", function () {
   const numberInput = document.getElementById("input-number");
 
