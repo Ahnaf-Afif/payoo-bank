@@ -16,3 +16,18 @@ function setBalance(value) {
   const balanceElement = document.getElementById("balance");
   balanceElement.innerText = value;
 }
+
+let addMoneyCount = 0;
+let cashoutCount = 0;
+
+function hideShow(id) {
+  const target = document.getElementById(id);
+  const isAlreadyVisible = !target.classList.contains("hidden");
+
+  document.getElementById("add-money").classList.add("hidden");
+  document.getElementById("cashout").classList.add("hidden");
+
+  if (!isAlreadyVisible) {
+    target.classList.remove("hidden");
+  }
+}

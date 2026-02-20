@@ -74,12 +74,18 @@
       </p>
 
       <div class="buttons grid grid-cols-3 gap-3">
-        <button class="btn flex-col h-full py-4 btn-primary btn-soft">
+        <button
+          onclick="hideShow('add-money')"
+          class="btn flex-col h-full py-4 btn-primary btn-soft"
+        >
           <img src="./assets/opt-1.png" alt="" />
           <p>Add Money</p>
         </button>
 
-        <button class="btn flex-col h-full py-4 btn-primary btn-soft">
+        <button
+          onclick="hideShow('cashout')"
+          class="btn flex-col h-full py-4 btn-primary btn-soft"
+        >
           <img src="./assets/opt-2.png" alt="" />
           <p>Cash Out</p>
         </button>
@@ -106,7 +112,7 @@
       </div>
     </section>
 
-    <section id="add-money" class="w-11/12 mx-auto py-10">
+    <section id="add-money" class="w-11/12 mx-auto py-10 hidden">
       <h2 class="text-xl font-bold">Add Money</h2>
 
       <div class="form pt-10">
