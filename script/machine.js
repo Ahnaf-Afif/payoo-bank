@@ -26,6 +26,7 @@ function hideShow(id) {
 
   document.getElementById("add-money").classList.add("hidden");
   document.getElementById("cashout").classList.add("hidden");
+  document.getElementById("transfer").classList.add("hidden");
 
   if (!isAlreadyVisible) {
     target.classList.remove("hidden");
