@@ -28,6 +28,7 @@ function hideShow(id) {
   document.getElementById("cashout").classList.add("hidden");
   document.getElementById("transfer").classList.add("hidden");
   document.getElementById("bonus").classList.add("hidden");
+  document.getElementById("pay-bill").classList.add("hidden");
 
   if (!isAlreadyVisible) {
     target.classList.remove("hidden");
